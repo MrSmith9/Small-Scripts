@@ -1,6 +1,9 @@
 # Scripts
 Scripts by Nico L & MrSmith9 (update).
 
+# News about update
+__I have been update node.js to v25, I will doing next others too. Have a nice day/evening.__
+
 # Our Wiki
 > You can open our Wiki here:
 https://github.com/nicolaeser/small-scripts/wiki

@@ -10,56 +10,56 @@ https://github.com/nicolaeser/small-scripts/wiki
 
 #### Docker
 ```
-wget https://github.com/nicolaeser/small-scripts/raw/main/installer/docker.sh && chmod +x docker.sh && ./docker.sh
+wget https://github.com/MrSmith9/small-scripts/raw/main/installer/docker.sh && chmod +x docker.sh && ./docker.sh
 ```
 
 
 #### NodeJS
 ```
-wget https://github.com/nicolaeser/small-scripts/raw/main/installer/nodejs.sh && chmod +x nodejs.sh && ./nodejs.sh
+wget https://github.com/MrSmith9/small-scripts/raw/main/installer/nodejs.sh && chmod +x nodejs.sh && ./nodejs.sh
 ```
 
 #### Ngnix
 ```
-wget https://github.com/nicolaeser/small-scripts/raw/main/installer/nginx.sh && chmod +x ngnix.sh && ./ngnix.sh
+wget https://github.com/MrSmith9/small-scripts/raw/main/installer/nginx.sh && chmod +x ngnix.sh && ./ngnix.sh
 ```
 
 #### Apache
 ```
-wget https://github.com/nicolaeser/small-scripts/raw/main/installer/apache.sh && chmod +x apache.sh && ./apache.sh
+wget https://github.com/MrSmith9/small-scripts/raw/main/installer/apache.sh && chmod +x apache.sh && ./apache.sh
 ```
 
 #### MariaDB
 ```
-wget https://github.com/nicolaeser/small-scripts/raw/main/installer/mariadb.sh && chmod +x mariadb.sh && ./mariadb.sh
+wget https://github.com/MrSmith9/small-scripts/raw/main/installer/mariadb.sh && chmod +x mariadb.sh && ./mariadb.sh
 ```
 
 #### PHP
 ```
-wget https://github.com/nicolaeser/small-scripts/raw/main/installer/php.sh && chmod +x php.sh && ./php.sh
+wget https://github.com/MrSmith9/small-scripts/raw/main/installer/php.sh && chmod +x php.sh && ./php.sh
 ```
 
 #### Python
 ```
-wget https://github.com/nicolaeser/small-scripts/raw/main/installer/python.sh && chmod +x python.sh && ./python.sh
+wget https://github.com/MrSmith9/small-scripts/raw/main/installer/python.sh && chmod +x python.sh && ./python.sh
 ```
 
 #### Git
 ```
-wget https://github.com/nicolaeser/small-scripts/raw/main/installer/git.sh && chmod +x git.sh && ./git.sh
+wget https://github.com/MrSmith9/small-scripts/raw/main/installer/git.sh && chmod +x git.sh && ./git.sh
 ```
 
 #### Keyhelp
 ```
-wget https://github.com/nicolaeser/small-scripts/raw/main/installer/keyhelp.sh && chmod +x keyhelp.sh && ./keyhelp.sh
+wget https://github.com/MrSmith9/small-scripts/raw/main/installer/keyhelp.sh && chmod +x keyhelp.sh && ./keyhelp.sh
 ```
 
 #### Adguard Home
 ```
-wget https://github.com/nicolaeser/small-scripts/raw/main/installer/adguardhome.sh && chmod +x adguardhome.sh && ./adguardhome.sh
+wget https://github.com/MrSmith9/small-scripts/raw/main/installer/adguardhome.sh && chmod +x adguardhome.sh && ./adguardhome.sh
 ```
 
 #### Pi Hole
 ```
-wget https://github.com/nicolaeser/small-scripts/raw/main/installer/pihole.sh && chmod +x pihole.sh && ./pihole.sh
+wget https://github.com/MrSmith9/small-scripts/raw/main/installer/pihole.sh && chmod +x pihole.sh && ./pihole.sh
 ```

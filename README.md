@@ -1,10 +1,9 @@
 # Scripts
-Scripts by Nico L.
+Scripts by Nico L & MrSmith9 (update).
 
 # Our Wiki
 > You can open our Wiki here:
 https://github.com/nicolaeser/small-scripts/wiki
-
 
 
 ### Server Installer

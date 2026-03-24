@@ -49,6 +49,9 @@ echo "#                                   Downloading Adguard Home Installer    
 echo "# curl -s -S -L https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v #"
 echo "###################################################################################################################"
 curl -s -S -L https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v
-
+wait -n
+echo "###########################################################################"
+echo "#                    Thank you for use this script                        #"
+echo "###########################################################################"
 
 

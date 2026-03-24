@@ -45,4 +45,8 @@ echo "#wget https://install.keyhelp.de/get_keyhelp.php -O install_keyhelp.sh ; b
 echo "####################################################################################################"
 wget https://install.keyhelp.de/get_keyhelp.php -O install_keyhelp.sh ; bash install_keyhelp.sh ;
 
+wait -n
+echo "###########################################################################"
+echo "#                    Thank you for use this script                        #"
+echo "###########################################################################"
 

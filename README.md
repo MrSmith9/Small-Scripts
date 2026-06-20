@@ -42,11 +42,6 @@ wget https://github.com/MrSmith9/small-scripts/raw/main/installer/mariadb.sh && 
 wget https://github.com/MrSmith9/small-scripts/raw/main/installer/php.sh && chmod +x php.sh && ./php.sh
 ```
 
-#### Python
-```
-wget https://github.com/MrSmith9/small-scripts/raw/main/installer/python.sh && chmod +x python.sh && ./python.sh
-```
-
 #### Git
 ```
 wget https://github.com/MrSmith9/small-scripts/raw/main/installer/git.sh && chmod +x git.sh && ./git.sh

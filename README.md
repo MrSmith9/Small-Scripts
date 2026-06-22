@@ -1,5 +1,5 @@
 # Scripts
-Scripts by Nico L & MrSmith9 (update).
+Scripts by Nico L & MrSmith9 (update 2026).
 
 # News about update
 __I have been update node.js to v25, I will doing next others too. Have a nice day/evening.__

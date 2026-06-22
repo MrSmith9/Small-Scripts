@@ -3,7 +3,7 @@ sleep 1
 clear
 echo "############################################################################"
 echo "#                            NodeJS Installer                              #"
-echo "#                              by Nico L.                                  #"
+echo "#               by Nico L and Kyle Smith (mrsmith9)                        #"
 echo "#                   https://github.com/ipexadev/scripts                    #"
 echo "#                          Last Update: 2026-06-20                         #"
 echo "############################################################################"
@@ -33,7 +33,7 @@ sleep 1
 clear
 echo "############################################################################"
 echo "#                              Installer                                   #"
-echo "#                              by Nico L.                                  #"
+echo "#               by Nico L and Kyle Smith (mrsmith9)                        #"
 echo "#                   https://github.com/nilasystem/scripts                  #"
 echo "############################################################################"
 echo "#                                                                          #"

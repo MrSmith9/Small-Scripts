@@ -3,7 +3,7 @@ sleep 1
 clear
 echo "############################################################################"
 echo "#                            Docker Installer                              #"
-echo "#                              by Nico L.                                  #"
+echo "#               by Nico L and Kyle Smith (mrsmith9)                        #"
 echo "#                   https://github.com/ipexadev/scripts                    #"
 echo "#                          Last Update: 27.06.2022                         #"
 echo "############################################################################"
@@ -27,7 +27,7 @@ sleep 2
 clear
 echo "############################################################################"
 echo "#                              Installer                                   #"
-echo "#                              by Nico L.                                  #"
+echo "#               by Nico L and Kyle Smith (mrsmith9)                        #"
 echo "#                   https://github.com/nilasystem/scripts                  #"
 echo "############################################################################"
 echo "#                                                                          #"

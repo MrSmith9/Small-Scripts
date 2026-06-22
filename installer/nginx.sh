@@ -57,7 +57,19 @@ echo "##########################################################################
 echo "#                         Installed Nginx                                  #"
 echo "############################################################################"
 
-wait -n
+echo "############################################################################"
+# Configure UFW firewall to allow SSH and Nginx
+echo "#                       Configuring UFW firewall                           #"
+if ! command -v ufw >/dev/null 2>&1; then
+    echo "Installing ufw..."
+    apt install -y ufw
+fi
+echo "Allowing OpenSSH to prevent lockout"
+ufw allow OpenSSH
+echo "Allowing Nginx HTTP/HTTPS"
+ufw allow 'Nginx Full' || (ufw allow 80 && ufw allow 443)
+echo "Enabling ufw (non-interactive)"
+ufw --force enable
 echo "###########################################################################"
 echo "#                    Thank you for use this script                        #"
 echo "###########################################################################"

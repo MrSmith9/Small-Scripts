@@ -61,3 +61,8 @@ wget https://github.com/MrSmith9/small-scripts/raw/main/installer/adguardhome.sh
 ```
 wget https://github.com/MrSmith9/small-scripts/raw/main/installer/pihole.sh && chmod +x pihole.sh && ./pihole.sh
 ```
+
+#### Pterodactyl Panel
+```
+wget https://github.com/MrSmith9/small-scripts/raw/main/installer/pterodactyl.sh && chmod +x pterodactyl.sh && ./pterodactyl.sh
+```

@@ -64,5 +64,7 @@ wget https://github.com/MrSmith9/small-scripts/raw/main/installer/pihole.sh && c
 
 #### Pterodactyl Panel
 ```
-wget https://github.com/MrSmith9/small-scripts/raw/main/installer/pterodactyl.sh && chmod +x pterodactyl.sh && ./pterodactyl.sh
+curl -fsSLO https://raw.githubusercontent.com/MrSmith9/Small-Scripts/main/installer/pterodactyl.sh && chmod +x pterodactyl.sh && sudo ./pterodactyl.sh
 ```
+
+The installer supports Debian and Ubuntu with PHP 8.2 or 8.3. It prompts for the panel's domain or public IP and can configure a Let's Encrypt certificate. After it completes, create the first panel administrator with the command it displays.

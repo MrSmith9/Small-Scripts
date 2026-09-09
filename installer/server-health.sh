@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 clear
 echo "############################################################################"
-echo "#                          Server Health Installer                         #"
+echo "#                          Server Health Report                            #"
 echo "#               by Nico L and Kyle Smith (mrsmith9)                        #"
 echo "#                   https://github.com/ipexadev/scripts                    #"
 echo "#                          Last Update: 27.06.2022                         #"

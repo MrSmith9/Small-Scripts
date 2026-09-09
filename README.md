@@ -121,6 +121,8 @@ curl -fSLO https://raw.githubusercontent.com/MrSmith9/Small-Scripts/main/install
 ```
 Creates a validated `/swapfile`, enables it, and adds the safe fstab entry after confirmation.
 
+Security note: these installers are downloaded and executed as root; consider reviewing the script (or pinning to a specific tag/commit) before running.
+
 #### Unattended upgrades
 ```sh
 curl -fSLO https://raw.githubusercontent.com/MrSmith9/Small-Scripts/main/installer/unattended-upgrade.sh && chmod +x unattended-upgrade.sh && sudo ./unattended-upgrade.sh

@@ -1,13 +1,16 @@
 #!/usr/bin/env bash
-clear
-echo "############################################################################"
-echo "#                          restic-backupp Installer                        #"
-echo "#               by Nico L and Kyle Smith (mrsmith9)                        #"
-echo "#                   https://github.com/ipexadev/scripts                    #"
-echo "#                          Last Update: 27.06.2022                         #"
-echo "############################################################################"
-sleep 3
 set -Eeuo pipefail
+
+if [[ ${1:-} != --run && -t 1 ]]; then
+    clear
+    echo "############################################################################"
+    echo "#                          restic-backup Installer                         #"
+    echo "#               by Nico L and Kyle Smith (mrsmith9)                        #"
+    echo "#                   https://github.com/ipexadev/scripts                    #"
+    echo "#                          Last Update: 27.06.2022                         #"
+    echo "############################################################################"
+    sleep 3
+fi
 
 readonly CONFIG_DIR="/etc/small-scripts"
 readonly CONFIG_FILE="$CONFIG_DIR/restic-backup.conf"

@@ -150,3 +150,9 @@ Produces a read-only report of system resources, failed services, listening port
 curl -fSLO https://raw.githubusercontent.com/MrSmith9/Small-Scripts/main/installer/logrotate.sh && chmod +x logrotate.sh && sudo ./logrotate.sh
 ```
 Adds a validated per-directory `.log` rotation rule with compression, retention, and non-restarting `copytruncate` behavior.
+
+#### Disk cleanup
+```sh
+curl -fSLO https://raw.githubusercontent.com/MrSmith9/Small-Scripts/main/installer/disk-cleanup.sh && chmod +x disk-cleanup.sh && sudo ./disk-cleanup.sh
+```
+Previews disk usage and safely reclaims package cache, orphaned packages, aged system journals, and policy-managed temporary files only after typed confirmation.

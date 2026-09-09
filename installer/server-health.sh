@@ -15,7 +15,7 @@ die() { error "$*"; exit 1; }
 heading() { printf '\n=== %s ===\n' "$*"; }
 trap 'error "Health report stopped at line $LINENO. Review the output above."' ERR
 
-require_root() { [[ $EUID -eq 0 ]] || die "Run this report as root for complete results: sudo bash server-health.sh"; }
+require_root() { [[ $EUID -eq 0 ]] || die "Run this report as root: sudo bash server-health.sh"; }
 require_supported_os() {
     [[ -r /etc/os-release ]] || die "Cannot identify the operating system."
     . /etc/os-release

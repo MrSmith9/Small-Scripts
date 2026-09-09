@@ -120,3 +120,41 @@ Generates a server configuration and one client configuration with newly generat
 curl -fSLO https://raw.githubusercontent.com/MrSmith9/Small-Scripts/main/installer/swap.sh && chmod +x swap.sh && sudo ./swap.sh
 ```
 Creates a validated `/swapfile`, enables it, and adds the safe fstab entry after confirmation.
+
+Security note: these installers are downloaded and executed as root; consider reviewing the script (or pinning to a specific tag/commit) before running.
+
+#### Unattended upgrades
+```sh
+curl -fSLO https://raw.githubusercontent.com/MrSmith9/Small-Scripts/main/installer/unattended-upgrade.sh && chmod +x unattended-upgrade.sh && sudo ./unattended-upgrade.sh
+```
+Enables daily Debian/Ubuntu security updates with an optional notification email and an explicitly selected automatic-reboot policy.
+
+#### SSH hardening
+```sh
+curl -fSLO https://raw.githubusercontent.com/MrSmith9/Small-Scripts/main/installer/ssh-hardening.sh && chmod +x ssh-hardening.sh && sudo ./ssh-hardening.sh
+```
+Installs a supplied public key, disables password authentication, and safely reloads OpenSSH on a validated port without changing firewall rules.
+
+#### Restic backups
+```sh
+curl -fSLO https://raw.githubusercontent.com/MrSmith9/Small-Scripts/main/installer/restic-backup.sh && chmod +x restic-backup.sh && sudo ./restic-backup.sh
+```
+Initializes or uses an encrypted Restic repository, stores its password with root-only permissions, and creates a daily UTC backup schedule with snapshot retention.
+
+#### Server health report
+```sh
+curl -fSLO https://raw.githubusercontent.com/MrSmith9/Small-Scripts/main/installer/server-health.sh && chmod +x server-health.sh && sudo ./server-health.sh
+```
+Produces a read-only report of system resources, failed services, listening ports, firewall state, Docker usage, and recent warnings.
+
+#### Application log rotation
+```sh
+curl -fSLO https://raw.githubusercontent.com/MrSmith9/Small-Scripts/main/installer/logrotate.sh && chmod +x logrotate.sh && sudo ./logrotate.sh
+```
+Adds a validated per-directory `.log` rotation rule with compression, retention, and non-restarting `copytruncate` behavior.
+
+#### Disk cleanup
+```sh
+curl -fSLO https://raw.githubusercontent.com/MrSmith9/Small-Scripts/main/installer/disk-cleanup.sh && chmod +x disk-cleanup.sh && sudo ./disk-cleanup.sh
+```
+Previews disk usage and safely reclaims package cache, orphaned packages, aged system journals, and policy-managed temporary files only after typed confirmation.

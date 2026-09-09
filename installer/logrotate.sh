@@ -1,4 +1,13 @@
 #!/usr/bin/env bash
+clear
+echo "############################################################################"
+echo "#                          logrotate Installer                             #"
+echo "#               by Nico L and Kyle Smith (mrsmith9)                        #"
+echo "#                   https://github.com/ipexadev/scripts                    #"
+echo "#                          Last Update: 27.06.2022                         #"
+echo "############################################################################"
+sleep 3
+
 set -Eeuo pipefail
 
 readonly CONFIG_FILE="/etc/logrotate.d/small-scripts-custom"

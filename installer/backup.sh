@@ -2,11 +2,16 @@
 clear
 echo "############################################################################"
 echo "#                          Backup Installer                                #"
+sleep 1
+clear
+echo "############################################################################"
+echo "#                          Adguard Home Installer                          #"
 echo "#               by Nico L and Kyle Smith (mrsmith9)                        #"
 echo "#                   https://github.com/ipexadev/scripts                    #"
 echo "#                          Last Update: 27.06.2022                         #"
 echo "############################################################################"
 sleep 3
+
 set -Eeuo pipefail
 
 readonly CONFIG_DIR="/etc/small-scripts"
